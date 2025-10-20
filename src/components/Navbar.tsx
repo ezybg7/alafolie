@@ -4,7 +4,6 @@ import {
   ChevronDown,
   Star,
   Croissant,
-  CircleDot,
   TicketPercent,
   CalendarDays,
   UserPlus,
