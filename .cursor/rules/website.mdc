@@ -1,0 +1,33 @@
+---
+alwaysApply: true
+---
+# Website Rules (React + Tailwind CSS)
+
+## 🛠 General
+- Use **functional React components with hooks** only.  
+- Follow ESLint + Prettier formatting rules (2 spaces, single quotes, trailing commas).  
+- Always write clean, maintainable code with clear comments for complex logic.  
+- Use TypeScript types/interfaces for props (if TS is enabled).  
+
+## 🎨 Tailwind CSS
+- Always use Tailwind utility classes for styling (no inline `style={{}}` unless required).  
+- Tailwind class order: **layout → spacing → typography → color → effects → states**.  
+- Use **theme config values** for colors, fonts, and spacing (no raw hex codes or px values).  
+- Responsive-first design: prefer `sm:`, `md:`, `lg:`, etc. over custom media queries.  
+- Keep class lists readable (line breaks allowed for long class strings).  
+
+## ⚛️ React
+- Components should follow **single responsibility** — keep them small and reusable.  
+- Use **props destructuring** in component definitions.  
+- Use named exports for reusable components.  
+- Default export only for page-level components.  
+- Use `map` for rendering lists with **unique keys** (never `index`).  
+- Use `async/await` over `.then()` for async code.  
+
+## 🌐 Project Practices
+- No hardcoded API keys or secrets — always use environment variables.  
+- Accessibility matters: always add `alt` attributes to images, labels to inputs, and semantic HTML.  
+- Prefer Framer Motion for animations (not raw CSS keyframes).  
+- Optimize for mobile-first responsive layouts.  
+
+---
