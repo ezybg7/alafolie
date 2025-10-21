@@ -26,7 +26,9 @@ export default function Hero() {
           {/* Left Content */}
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-black leading-tight">
-              Indulge in Sweet Moments at À La Folie CrepEscape 
+              Indulge in Sweet Moments at <br />
+              À La Folie <br />
+              CrepEscape
             </h1>
             
             <p className="text-lg lg:text-xl text-gray-700 leading-relaxed">
