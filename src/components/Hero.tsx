@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
 
           {/* Right Content - Carousels */}
-          <div className="grid grid-cols-[auto,auto] justify-center gap-4 h-[600px] overflow-y-hidden overflow-x-visible">
+          <div className="grid grid-cols-[auto,auto] justify-center gap-4 h-[600px] overflow-hidden">
             {/* Left Carousel - Scrolling Up */}
             <div className="relative py-4 h-full">
               <div className="h-full overflow-y-hidden overflow-x-visible">
